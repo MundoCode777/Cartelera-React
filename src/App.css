@@ -1,0 +1,47 @@
+/* src/App.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ffebf2;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff0f6;
+  border: 2px solid #ff85c0;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.title {
+  font-size: 2em;
+  color: #ff3366;
+}
+
+.content {
+  font-size: 1.2em;
+  color: #ff5c8a;
+  margin: 10px 0;
+}
+
+.signature {
+  font-size: 1.5em;
+  color: #ff3366;
+  margin-top: 20px;
+  font-style: italic;
+}
